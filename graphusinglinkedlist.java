@@ -32,10 +32,10 @@ class graphusinglinkedlist
         Scanner in=new Scanner(System.in);
         int v=in.nextInt();
         graphusinglinkedlist g=new graphusinglinkedlist(v);
-        int n=in.nextInt();
+        int n=in.nextInt();//enter no. of nodes
         for(int i=1;i<=n;i++)
         { 
-            g.add(in.nextInt(),in.nextInt());
+            g.add(in.nextInt(),in.nextInt()); //enter vertices connected through edges
         }
         g.display();
     }
